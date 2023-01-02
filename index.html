@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>가시안이며 비상업적 용도로만 사용되어집니다ㅣ개인포트폴리오</title>
+
+
+  <!-- 제이쿼리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script>
+  <!-- 폰트어썸 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- 테일윈드 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    referrerpolicy="no-referrer" />
+
+
+  <!-- 로컬링크:common(라이브러리)먼저 위에 쓰기 -->
+  <link rel="stylesheet" href="common.css">
+  <script src="common.js"></script>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <!-- link/script 이거 꼭 해야 css/js적용됨. -->
+
+<!-- script defer src: 링크가 안된다 하면 defer 쓰기. defer쓰면 나중에 적용 -->
+
+
+
+
+
+
+</head>
+
+<body>
+  <header class="con-min-width top-bar">
+    <div class="con mx-auto flex h-full px-4">
+      <a href="#" class="top-bar__logo flex items-center gap-2 font-bold text-2xl">
+        <span>
+          <i class="far fa-lemon"></i>
+        </span>
+        <span>
+          DESIGN LEMON
+        </span>
+      </a>
+      <div class="flex-grow"></div>
+      <nav class="top-bar__menu-1">
+        <ul class="flex h-full">
+          <li><a href="#">
+              <span><i class="fas fa-home"></i></span>
+              <span>HOME</span>
+            </a></li>
+          <li><a href="#">
+              <span><i class="fas fa-address-card"></i></span>
+              <span>ABOUT ME</span>
+            </a></li>
+          <li><a href="#">
+              <span><i class="fas fa-newspaper"></i></span>
+              <span>ARTILCES</span>
+            </a>
+            <ul class="top-bar__menu-2">
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-code"></i></span>
+                  <span>WEB CODING</span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span><i class="fas fa-mobile-alt"></i></span>
+                  <span>UI/UX</span>
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">
+              <span><i class="fas fa-book"></i></span>
+              <span>PORTFOLIO</span>
+            </a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <div class="content con-min-width">
+    <section class="section-1 con mx-auto mb-6">
+      <a href="#">
+        <img src="https://i.picsum.photos/id/181/1200/500.jpg?hmac=DgPax0JZNLtVftwPo6EGU0K1PfdSNi0yx3meaaK8mJQ" alt="">
+      </a>
+    </section>
+    <section class="section-2 con mx-auto">
+      <ul class="grid grid-cols-3 gap-4 gap-y-12">
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/188/500/500.jpg?hmac=CaZ5dUEFPRvwTx2SRWKns-F23Tp9oPSJbw2K2SW1Vvs"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/189/500/500.jpg?hmac=-wioRoSOaaDgK91GEZKbvtBhwcqSy1W9GKw8lTD726g"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/190/500/500.jpg?hmac=8CLGnEDBKmyKz6hYPrsDw46mPRglb__A1WD9aSFw5Bc"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/191/500/500.jpg?hmac=QoRAI8rX-gag9ALaYVbgTGqmrLVAmCir5oK_ERcJtxE"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/192/500/500.jpg?hmac=HIULH7iaYBn0uOZJWfkJ7NjtlTziDo1uooLGXuUyJX4"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/193/500/500.jpg?hmac=5eXseIVa0Mq_-eotbpTeHTABeV-agyM79NghBnEmCJw"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/194/500/500.jpg?hmac=om5k-9p7KzqQ0sWf3tM_n3JP05skQy3Cw84sBidX7iw"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+        <li class="flex flex-col gap-2">
+          <a href="#">
+            <img src="https://i.picsum.photos/id/195/500/500.jpg?hmac=L0aQHXtbCWaqlgWJm8avFI8JAdJyk9EJlRXQcOM9RLc"
+              alt="">
+          </a>
+          <a href="#">아이템 1</a>
+          <a href="#" class="section-2__price">
+            <span>12,000원</span>
+            <span>></span>
+            <span>10,000원</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
+</html>
+
+
+<!-- 시작할때 !+tab 누르고 시작 -->
+<!-- F1 > format document : 문서정리 -->
+<!-- a에 링크 달아 index2로 이동 할 때 
+  <a href="index2.html">
+    안녕하세요
+  </a>
+  라고 씀. -->

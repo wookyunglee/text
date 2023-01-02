@@ -1,0 +1,13 @@
+/* lib */
+.con {
+  width: var(--site-width);
+}
+
+.con-min-width {
+  min-width: var(--site-width);
+}
+
+/* custom */
+:root {
+  --site-width: 1200px;
+}
